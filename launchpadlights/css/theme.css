@@ -1,0 +1,68 @@
+html, body 
+{
+  background-image: url(../img/bg-4.jpg);
+  height: 100%;
+  min-width: 0px;
+  top: 0;
+  left: 0;
+  /*background-size: 100% 100%; */
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.graybg 
+{
+  background: rgba(0, 0, 0, 0.75);
+  padding: 10px;
+  border-radius: 8px;
+  height: 210px;
+}
+
+.graybg.dl
+{
+  height: 300px;
+}
+
+.btn-dl
+{
+  width: 160px;
+}
+
+#footer-text
+{
+  text-shadow: 1px 1px 1px #000;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap
+{
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer
+{
+  height: 60px;
+}
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) 
+{
+  .btn-dl
+  {
+    width: 80px;
+    height: 50px;
+    font-size: 12px;
+    text-align: center;
+    white-space: normal;
+    border: 0px;
+    padding: 0px;
+    margin: 4px;
+  }
+}
+
