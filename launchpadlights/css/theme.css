@@ -24,12 +24,25 @@ html, body
   height: 300px;
 }
 
+.header-logo {
+  padding: 20px;
+}
+
 .btn-dl
 {
   width: 160px;
 }
 
-#footer-text
+#vidya {
+  height: 400px;
+  margin: 20px 0px 60px 0px;
+}
+
+#middlebox {
+  margin: 60px 0px 20px 0px;
+}
+
+#footer-text 
 {
   text-shadow: 1px 1px 1px #000;
 }
